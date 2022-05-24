@@ -1,0 +1,16 @@
+
+
+ .logo,
+ form {
+     width:100%;
+
+ }
+
+ header nav ul li {
+    display:list-item;
+
+}
+
+main section article:hover .description {
+    display:none;
+}

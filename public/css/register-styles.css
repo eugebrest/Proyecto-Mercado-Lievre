@@ -1,0 +1,70 @@
+
+*{
+    font-family:'Roboto';
+    font-size: 15px;
+}
+
+.form-register {
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    box-sizing:border-box;
+    background-color:lightgrey;
+    text-align: center;
+    box-shadow:0px 0px 10px rgb(100, 100, 100);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+div.name-user
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  div.name-user input, div.pass input
+  {
+      padding:5px;
+      border-radius: 5px;
+      margin-bottom: 16px;
+      text-align: center;
+  } 
+
+div.pass .submit,
+div.pass .reset
+{
+    background-color: grey;
+    transition:display,0.10ms;
+}
+div.pass .reset:hover { 
+    background-color: #0022AA;
+} 
+div.pass .submit:hover{ 
+    background-color: #0022AA;
+} 
+div.pass,
+div.date, div.control
+{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    padding: 5%;
+}
+div.pass input,
+div.pic  {
+display:flex;
+flex-direction: column;
+border-radius: 5px;
+margin-bottom: 16px;
+padding:5px;
+}
+
+.pic {
+    width:100%;
+}
+
+.checkbox {
+    width:100%;
+}

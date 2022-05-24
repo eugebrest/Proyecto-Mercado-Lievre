@@ -1,0 +1,334 @@
+
+:root {
+    ---yellow: #EAC926;
+    ---blue: #03264C;
+    ---lightBlue:#1259c3;
+    ---greydark:#666;
+    ---greylight:#ebebeb;
+    ---green: #39b54a;
+}
+
+*{
+    font-family:'Roboto'}
+
+body {
+    background-color:var(---greylight);
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+header {
+    background-color: var(---yellow);
+
+}
+
+header p {
+    text-align:center;
+}
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+header div.logo,
+header .form{
+    width: 50%;
+}
+
+form .input,
+form .submit
+{
+    border-radius:5px;
+    height:20px;
+}
+form .submit {
+    width:20px;
+    font-size:10px;
+}
+form .input {
+    font-size: 12px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+}
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+    z-index: 1;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 20px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 30px;
+}
+
+section.last-visit,
+section.last-offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.precio{
+    font-size: 16px;
+    width: 30%;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.discount{
+    width: 70%;
+}
+h3,
+main section .description{
+    color: #666;
+
+}
+
+main section .description {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+}
+
+main {
+   width:90%;
+   margin: 0 auto;
+}
+
+main section article {
+    background-color: white;
+    margin: 10px 0px;
+}
+
+main section h3 {
+    margin: 20px 0px;
+}
+
+main section article img {
+    width: 100%;
+}
+main section article i,
+.discount {
+    color:var(---green);
+}
+
+main section article i{
+    transition:transform 1s;
+}
+main section article i:hover{
+transform:rotate(-90deg);
+}
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+
+}
+div.copy {
+    text-align:left;
+    margin:auto;
+}
+ footer div.elementos {
+    text-align:center;
+     padding:10px;
+     background-color: white;
+
+ }
+
+ footer div.elementos i{
+     font-size:2em;
+     color: var(---lightBlue);
+     margin-bottom: 10px;
+     transition:color, 1s;
+ }
+
+footer div.elementos:hover i {
+color:#ebebeb;
+}
+
+ footer div.elementos {
+    padding: 60px 0px;
+}
+
+div.elementos article {
+    padding: 20px;
+}
+
+@media (min-width: 361px) {
+
+        header nav ul li {
+            display:none;
+        }
+main section article .description {
+            display:none;
+
+ }
+    main section div.products {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article {
+        width: 43%;
+    }
+
+    div.logo, form {
+        width:50%;
+        }
+     
+    }
+
+@media (min-width: 769px){
+    main section div.products article{
+        width: 23%;
+    }
+    main section article:hover .description {
+            display:flex;
+        }
+    main section article {
+        transition:box-shadow,420ms;
+    }
+    main section article:hover {
+    box-shadow:0px 0px 10px rgb(100, 100, 100);
+    
+    }
+    .burger-menu {
+            display:none;
+    }
+    header nav ul li {
+        display:flex;
+    
+    }
+    header section {
+        display: flex;
+        flex-wrap:nowrap;
+        justify-content: space-around;
+        width:90%;
+    }
+   
+    div.top-header {
+        display:flex;
+        flex-wrap:nowrap;
+        align-self: center;
+        width:80%;
+    }
+
+    header section p{
+        margin-top:40px;
+        width:40%;
+        }
+
+    nav.enlaces {
+        display:flex;
+        justify-content: space-around;
+        vertical-align: middle;
+    
+}
+nav ul li {
+    display:none;
+    float:left;
+    margin-left: 20px;
+    align-items: center;
+}
+
+div.elementos {
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:wrap;
+    text-align:center;
+    font-size:2em;
+ 
+        
+    }
+
+    div.elementos article {
+        padding:20px;
+    }
+
+}
