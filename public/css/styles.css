@@ -179,7 +179,9 @@ main section article i,
 
 main section article i{
     transition:transform 1s;
-
+}
+main section article i:hover{
+transform:rotate(-90deg);
 }
 main section article i{
     display: block;
