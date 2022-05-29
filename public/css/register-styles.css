@@ -1,11 +1,14 @@
 
 *{
     font-family:'Roboto';
-    font-size: 15px;
 }
+    
+header {
+    font-size:12px;}
 
 .form-register {
     width: 300px;
+    font-size: 15px;
     display:flex;
     flex-direction: column;
     box-sizing:border-box;
@@ -15,6 +18,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 20px;
+    
 }
 div.name-user
  {
@@ -65,6 +69,10 @@ padding:5px;
     width:100%;
 }
 
-.checkbox {
-    width:100%;
+.list {
+    width:35%;
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+
 }

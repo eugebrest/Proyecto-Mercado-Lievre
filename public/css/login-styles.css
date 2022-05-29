@@ -1,10 +1,12 @@
 *{
     font-family:'Roboto';
-    font-size:15px;
 }
-
+header {
+font-size:12px;
+}
 .login {
     width:300px;
+    font-size: 15px;
     display:flex;
     flex-direction: column;
     box-sizing:border-box;
@@ -16,14 +18,6 @@
     margin-bottom: 30px;
 }
 
-input{
-    display:flex;
-    flex-direction: column;
-    border-radius: 5px;
-    margin-bottom: 16px;
-    text-align: center;
-   
-}
 .control,
  .enviar {
     padding:5px;

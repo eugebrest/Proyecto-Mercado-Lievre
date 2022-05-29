@@ -53,12 +53,21 @@ header .form{
 form .input,
 form .submit
 {
-    border-radius:5px;
     height:20px;
 }
-form .submit {
-    width:20px;
+.glass .submit{
+    width:40px;
     font-size:10px;
+    height:20px;
+
+}
+.glass i{
+    position:relative;
+    right:40%;
+}
+.glass {
+    position:relative;
+    bottom:-3px;
 }
 form .input {
     font-size: 12px;
@@ -88,7 +97,11 @@ header ul li a{
     color: black;
 }
 
-header .form .input{
+header ul li i{
+    margin-left: 5px;
+}
+
+header .form input{
     background-color: #FFF;
     border: 1px solid #000;
     outline: none;

@@ -7,46 +7,44 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/register-styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <section>
-                <div class="top-header">
-                    <div class="logo"> 
-                        <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
-                    </div>
-                    <form action="#" method="GET">
-                        <input class="input" type="text" name="búsqueda" placeholder= "Buscar productos, marcas y más">
-                        <input class="submit" type="submit"><i class="fa fa-search"></i>
-                </div>
-                <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
-                
-            </section>
-            <nav class="enlaces">
-            <ul>   
-                    <li> <a href ="#">Ofertas </a></li>
-                    <li> <a href="#" >Tiendas Oficiales</a></li>
-                    <li> <a href="#" >Vender </a></li>
-                    <li> <a href="#" >Ayuda </a></li>
-            </ul>
-                
-            <ul>
-                    <li><a href= "#">Creá tu cuenta </a> <i class="far fa-address-card"></i></li>
-                    <li><a href="#">Ingresá </a> <i class="fas fa-sign-in-alt"></i></i>       
-                    <li> <a href="#"> Mis compras</a> <i class="fas fa-shopping-basket"></i></li>
-                    </ul>
-                </nav>
-            
-                <div class="burger-menu">
-                    <i class="fas fa-bars"></i>
-                    </div>  
-            </header>
+    <header>
+    <section>
+        <div class="top-header">
+            <div class="logo"> 
+                <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+            </div>
+            <form action="#" method="GET">
+                <input class="input" type="text" name="búsqueda" placeholder= "Buscar productos, marcas y más">
+                <div class="glass"><input class="submit" type="submit"> <i class="fa fa-search"></i></div>
+        </div>
+        <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
         
-        <section>
-        <img class="banner" src="/images/img-home-banner.jpg">
-        </section>
+    </section>
+    <nav class="enlaces">
+    <ul>   
+            <li> <a href ="#">Ofertas </a></li>
+            <li> <a href="#" >Tiendas Oficiales</a></li>
+            <li> <a href="#" >Vender </a></li>
+            <li> <a href="#" >Ayuda </a></li>
+    </ul>
+        
+    <ul>
+            <li><a href= "/register">Creá tu cuenta </a> <i class="far fa-address-card"></i></li>
+            <li><a href="/login">Ingresá </a> <i class="fas fa-sign-in-alt"></i></i>       
+            <li> <a href="#"> Mis compras</a> <i class="fas fa-shopping-basket"></i></li>
+            </ul>
+        </nav>
+    
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+            </div>  
+    </header>
+
+    
     <main class="form-register">
         <form action="/"  method="GET" class="form">
         <div class="name-user">
@@ -69,16 +67,16 @@
         </div>
         
         <h4>Intereses</h4>
-            <div class="checkbox">
-            <input type="checkbox" name="interests"><label for="Electro">Electro </label>
-            <input type="checkbox" name="interests"> <label for="Moda">Moda </label>
-            <input type="checkbox" name="interests"> <label for="Hogar">Hogar </label>
-            <div><input type="checkbox" name="interests"><label for="Juguetería">Juguetería </label>
-            <input type="checkbox" name="interests"><label for="Vida sana">Vida sana </label>
+            <div class="list">
+            <div class="list1"><input type="checkbox" name="interests"><label for="Electro">Electro </label></div>
+            <div class="list1"><input type="checkbox" name="interests"> <label for="Moda">Moda </label></div>
+            <div class="list1"> <input type="checkbox" name="interests"> <label for="Hogar">Hogar </label></div>
+            <div class="list1"><input type="checkbox" name="interests"><label for="Juguetería">Juguetería </label></div>
+            <div class="list1"> <input type="checkbox" name="interests"><label for="Vida sana">Vida sana </label></div>
             </div>
-    
-        <h4>Elegí tu foto de usuario</h4>
-        <div class="pic"><input class="file" type="file" name= "avatar"></div>
+            
+        <div class="pic"><h4>Elegí tu foto de usuario</h4>
+         <input class="file" type="file" name= "avatar"></div>
         
     
         

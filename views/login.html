@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset=""utf-8>
@@ -6,25 +7,43 @@
         <title>Bienvenido a MercadoLiebre</title>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/css/normalize.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/styles.css">
         <link rel="stylesheet" href="/css/login-styles.css">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     </head>
-
     <body>
-        <header>
-            <section>
-                <div class="top-header">
-                    <div class="logo"> 
-                        <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
-                    </div>
-                    <form action="#" method="GET">
-                        <input class="input" type="text" name="búsqueda" placeholder= "Buscar productos, marcas y más">
-                        <input class="submit" type="submit"><i class="fa fa-search"></i>
-                </div>
-                <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
-                
+    <header>
+    <section>
+        <div class="top-header">
+            <div class="logo"> 
+                <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+            </div>
+            <form action="#" method="GET">
+                <input class="input" type="text" name="búsqueda" placeholder= "Buscar productos, marcas y más">
+                <div class="glass"><input class="submit" type="submit"> <i class="fa fa-search"></i></div>
+        </div>
+        <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        
+    </section>
+    <nav class="enlaces">
+    <ul>   
+            <li> <a href ="#">Ofertas </a></li>
+            <li> <a href="#" >Tiendas Oficiales</a></li>
+            <li> <a href="#" >Vender </a></li>
+            <li> <a href="#" >Ayuda </a></li>
+    </ul>
+        
+    <ul>
+            <li><a href= "/register">Creá tu cuenta </a> <i class="far fa-address-card"></i></li>
+            <li><a href="/login">Ingresá </a> <i class="fas fa-sign-in-alt"></i></i>       
+            <li> <a href="#"> Mis compras</a> <i class="fas fa-shopping-basket"></i></li>
+            </ul>
+        </nav>
+    
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+            </div>  
+    </header>
             </section>
             <nav class="enlaces">
             <ul>   
@@ -35,8 +54,8 @@
             </ul>
                 
             <ul>
-                    <li><a href= "#">Creá tu cuenta </a> <i class="far fa-address-card"></i></li>
-                    <li><a href="#">Ingresá </a> <i class="fas fa-sign-in-alt"></i></i>       
+                    <li><a href= "/register">Creá tu cuenta </a> <i class="far fa-address-card"></i></li>
+                    <li><a href="/login">Ingresá </a> <i class="fas fa-sign-in-alt"></i></i>       
                     <li> <a href="#"> Mis compras</a> <i class="fas fa-shopping-basket"></i></li>
                     </ul>
                 </nav>
@@ -45,10 +64,6 @@
                     <i class="fas fa-bars"></i>
                     </div>  
             </header>
-        
-        <section>
-        <img class="banner" src="/images/img-home-banner.jpg">
-        </section>
         </header>
         <main class="login"> 
         <form action="/"  method="GET">
